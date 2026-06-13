@@ -1,0 +1,24 @@
+{
+  "existingCategoryId": 1,
+  "existingCategorySlug": "clothes",
+  "nonExistentId": 99999,
+
+  "newCategory": {
+    "name": "Automation Category Testing",
+    "image": "https://placeimg.com/640/480/any"
+  },
+
+  "updatedCategory": {
+    "name": "Updated Automation Testing",
+    "image": "https://placeimg.com/640/480/tech"
+  },
+
+  "invalidCategory": {
+    "image": "https://placeimg.com/640/480/any"
+  },
+
+  "pagination": {
+    "limit": 3,
+    "offset": 0
+  }
+}
