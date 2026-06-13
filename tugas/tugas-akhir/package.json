@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Automasi OrangeHRM - Login, Directory, Recruitment menggunakan POM dan Intercept",
   "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "cy:run:login": "cypress run --spec cypress/e2e/login/**",
-    "cy:run:directory": "cypress run --spec cypress/e2e/directory/**",
-    "cy:run:recruitment": "cypress run --spec cypress/e2e/recruitment/**"
+    "test:open": "cypress open",
+    "test:run": "cypress run",
+    "test:run:login": "cypress run --spec cypress/e2e/login/**",
+    "test:run:directory": "cypress run --spec cypress/e2e/directory/**",
+    "test:run:recruitment": "cypress run --spec cypress/e2e/recruitment/**"
   },
   "devDependencies": {
     "cypress": "^13.6.0"
