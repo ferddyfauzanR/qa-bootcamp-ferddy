@@ -1,0 +1,15 @@
+{
+  "name": "orangehrm-login-pom",
+  "version": "1.0.0",
+  "description": "Test Automation - Modul Login OrangeHRM dengan POM | Ferddy Fauzan Ramadhan",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:headless": "cypress run --headless --browser chrome"
+  },
+  "author": "Ferddy Fauzan Ramadhan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}

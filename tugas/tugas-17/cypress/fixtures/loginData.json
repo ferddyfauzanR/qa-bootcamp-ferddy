@@ -1,0 +1,15 @@
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidUser": {
+    "username": "wronguser",
+    "password": "wrongpass"
+  },
+  "usernameWithSpaces": " Admin ",
+  "usernameLowercase": "admin",
+  "loginUrl": "/web/index.php/auth/login",
+  "dashboardUrl": "/web/index.php/dashboard/index",
+  "forgotPasswordUrl": "/web/index.php/auth/requestPasswordResetCode"
+}
